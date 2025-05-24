@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #a3bffa; /* roxo azulado pálido */
+  --primary-hover: #809fff; /* azul suave para hover */
+  --bg: #1a1a2e; /* fundo escuro bonito */
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --text: #ffffff;
+}
+
+body {
+  @apply bg-[var(--bg)] text-[var(--text)] font-sans;
+}
